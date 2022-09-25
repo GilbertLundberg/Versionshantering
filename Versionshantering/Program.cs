@@ -3,7 +3,7 @@ string[] messagesToClass = { "Glöm inte att övning ger färdighet!", "Öppna b
 string className = "Klass 2022";
 
 WebsiteGenerator website = new WebsiteGenerator(className, messagesToClass, techniques);
-
+Console.WriteLine("Printing Website...\n");
 website.PrintPage();
 
 class WebsiteGenerator
