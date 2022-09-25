@@ -5,6 +5,7 @@ string className = "Klass 2022";
 WebsiteGenerator website = new WebsiteGenerator(className, messagesToClass, techniques);
 Console.WriteLine("Printing Website...\n");
 website.PrintPage();
+Console.WriteLine("Website printed successfully!");
 
 class WebsiteGenerator
 {
